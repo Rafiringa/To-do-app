@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODOLIST</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.css">
+	<style>
+        body {
+            background-image: url('HD-wallpaper-blue-mosaic-background-abstract-art-mosaic-patterns-blue-backgrounds-mosaic-textures-background-with-mosaic.jpg');
+            background-position: center ;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #lists {
+            height: 450px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 bg-light shadow mt-3 p-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="form-group">
+                            <div class="row">
+                                <div class="col-md-9 pr-0">
+                                    <input type="text" id="input" placeholder="Votre tache ici" class="form-control">
+                                </div>
+                                <div class="col-md-3">
+                                    <a href="#" class="btn btn-outline-primary" id="ajouter">Ajouter</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12" id="lists">
+                        <ul class="list-group" id="myList">
+                            <!-- <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item">
+                                <input data-etat='off' type="checkbox"> 
+                                <span class="text-muted">Aller chez le docteur</span>
+                                <a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li>
+                            <li class="list-group-item"><input type="checkbox"> <span class="text-muted">Aller chez le docteur</span><a href="#" class="btn btn-outline-danger float-right">Supprimer</a></li> -->
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+    </div>
+
+<script src="jquery.js"></script>
+<script src="bootstrap/bootstrap.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
